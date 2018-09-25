@@ -35,6 +35,9 @@ val loggingDependencies = Seq(
   "ch.qos.logback" % "logback-classic" % "1.2.3"
 )
 libraryDependencies += guice
+
+libraryDependencies += filters
+
 libraryDependencies ++= (Seq(
   "net.codingwell" %% "scala-guice" % "4.2.1",
   "javax.xml.bind" % "jaxb-api" % "2.1",
